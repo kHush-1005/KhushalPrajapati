@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JD's Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="progress-bar" id="scroll-progress"></div>
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo"><span class="animated-logo">Kj</span></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+    </div>
+  </nav>
+
+
+  <section class="home " id="home" class="image-wrapper" data-aos="">
+    <div>
+      <img src="assets/images/me.jpeg" data-aos="flip-left" data-aos-duration="2000" alt="Your Photo">
+      <h2>Hello, I'm <span class="animated-text">Khushal</span></h2>
+      <h3 id="typing" style="font-size: 24px; margin: 10px 0; color: #FCA311;"></h3>
+      <p>Fresher IT Student | Python Developer | AI/ML Enthusiast</p>
+
+      <div class="buttons">
+        <a href="#projects">Explore Projects</a>
+        <a href="#contact">Let's Connect</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://wa.me/917226928327" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:kpraj8423@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="about" id="about">
+    <div class="about-img" data-aos="zoom-in">
+      <img src="assets/images/me.jpeg" alt="About Photo">
+    </div>
+    <div class="about-text" data-aos="fade-left">
+      <h2>About Me</h2>
+      <p><strong>Name:</strong> Khushal Prajapati</p>
+      <p><strong>Education:</strong> B.Tech in Information Technology</p>
+      <p><strong>Domain Interest:</strong> Python Development, AI/ML</p>
+      <p><strong>Tools:</strong> VS Code, PyCharm, Django, Python, Spyder, MySQL</p>
+      <p>I’m a passionate learner excited to solve real-world problems through technology. Always eager to learn and
+        explore new frameworks and libraries to build powerful applications.</p>
+    </div>
+  </section>
+
+
+  <section class="tools-section" id="tools" data-aos="slide-right">
+    <h2 data-aos="flip-down">My Skills</h2>
+    <div class="tools-grid" data-aos="flip-down">
+      <div class="tool"><img src="assets/icons/python.png" alt="Python">
+        <p>Python</p>
+      </div>
+      <div class="tool"><img src="assets/icons/mysql.svg" alt="MySQL">
+        <p>MySQL</p>
+      </div>
+      <div class="tool"><img src="assets/icons/django.svg" alt="Django">
+        <p>Django</p>
+      </div>
+      <div class="tool"><img src="assets/icons/vscode.png" alt="VS Code">
+        <p>VS Code</p>
+      </div>
+      <div class="tool"><img src="assets/icons/pycharm.svg" alt="PyCharm">
+        <p>PyCharm</p>
+      </div>
+      <div class="tool"><img src="assets/icons/css.svg" alt="CSS">
+        <p>CSS</p>
+      </div>
+      <div class="tool"><img src="assets/icons/javascript.svg" alt="JavaScript">
+        <p>JavaScript</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects-section" id="projects">
+    <h2>My Projects</h2>
+    <p>Here are some of my key projects across AI, Web, and Data domains.</p>
+    <div class="projects-container">
+      <div class="project-card" data-aos="zoom-in">
+        <img src="assets/projects/movies.webp" alt="Movies Recommendation System">
+        <div class="project-content">
+          <h3>movies recommendation system</h3>
+          <p>An interactive Streamlit app that recommends movies based on content similarity using TF-IDF and cosine
+            similarity.</p>
+          <a href="https://github.com/yourusername/movie-recommendation" class="github-box" target="_blank">View on
+            GitHub</a>
+        </div>
+      </div>
+      <div class="project-card" data-aos="zoom-in">
+        <img src="assets/projects/customer_churn.webp" alt="Customer Churn Model">
+        <div class="project-content">
+          <h3>Customer Churn Model</h3>
+          <p>A Streamlit-based web app that predicts customer churn using a trained ML model.Upload a CSV file to get
+            churn probabilities, risk levels, and interactive visualizations.</p>
+          <a href="https://github.com/kHush-1005/-Customer-Churn-Prediction-System" class="github-box"
+            target="_blank">View on
+            GitHub</a>
+        </div>
+      </div>
+      <div class="project-card" data-aos="zoom-in">
+        <img src="assets/projects/climate_aware_energy.webp" alt="Climate-Aware Energy Optimizer">
+        <div class="project-content">
+          <h3>Climate-Aware Energy Optimizer</h3>
+          <p> A smart Streamlit app that optimizes appliance usage timing using ML to reduce energy cost and CO₂
+            emissions.</p>
+          <a href="https://github.com/kHush-1005/Climate-Aware-Energy-Optimizer" class="github-box" target="_blank">View
+            on GitHub</a>
+        </div>
+      </div>
+      <div class="project-card" data-aos="zoom-in">
+        <img src="assets/projects/health.avif" alt="Multi-Disease-System">
+        <div class="project-content">
+          <h3>Multi-Disease-System</h3>
+          <p>A Streamlit-based ML web app for predicting Diabetes, Heart Disease, and Parkinson’s using trained models
+            with user inputs. Built with clean UI, theme toggle, and sidebar navigation.</p>
+          <a href="https://github.com/kHush-1005/Multi-Disease-System" class="github-box" target="_blank">View on
+            GitHub</a>
+        </div>
+      </div>
+      <div class="project-card" data-aos="zoom-in">
+        <img src="assets/projects/ai.jpg" alt="AI Model">
+        <div class="project-content">
+          <h3>AI Model</h3>
+          <p>A Streamlit UI for interacting with custom AI agents using Groq's LLaMA models.</p>
+          <a href="https://github.com/kHush-1005/AI-Agent-Groq-s-LLaMA-model-" class="github-box" target="_blank">View
+            on
+            GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-section" id="contact">
+    <h2>Contact Me</h2>
+    <p class="sub-heading">I'd love to hear from you. Let's connect!</p>
+
+    <div class="contactbox">
+      <div class="contact-item">
+        <a href="mailto:kpraj8423@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+
+      <div class="contact-item">
+        <a href="https://wa.me/917226928327" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+
+      <div class="contact-item">
+        <a href="https://www.linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+
+</html>
